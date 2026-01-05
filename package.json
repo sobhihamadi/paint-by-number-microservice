@@ -12,7 +12,7 @@
     "postbuild": "echo \"Finished build with size: $(du -sh dir | cut -f1)\"",
     "prestart": "npm run build",
     "start": "node dir/index.js",
-    "test":"jest"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -23,7 +23,8 @@
     "express": "^5.2.1",
     "multer": "^2.0.2",
     "pg": "^8.16.3",
-    "uuid": "^13.0.0"
+    "uuid": "^13.0.0",
+    "winston": "^3.19.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
