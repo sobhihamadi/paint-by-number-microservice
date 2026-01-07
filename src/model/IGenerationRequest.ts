@@ -1,4 +1,4 @@
-import { id } from "repository/IRepository";
+import { id } from "../repository/IRepository";
 
 /**
  * Base interface for generation requests
